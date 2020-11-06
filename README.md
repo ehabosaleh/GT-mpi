@@ -9,7 +9,7 @@ DLS algorithm presents a new version of DFS algorithm as it uses the same implem
 ## Bridth First Search (BFS.py)
 This is the most common used uninformed search algorithm for traversing a tree or a graph. Instead of the recursive traversing, it traverses through the graph breadthwise, level after level until it reaches the target node. The used data structure is First In First Out (FIFO).
 Figure below shows the order in which nodes are expanded when we use BFS algorithm. 
-![](https://upload.wikimedia.org/wikipedia/commons/3/33/Breadth-first-tree.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Breadth-first-tree.svg/1024px-Breadth-first-tree.svg.png)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
