@@ -5,7 +5,7 @@ The used uninformed search algorithms are:
 It is a recursive algorithm because it traverses all the nodes in a possible path utill it reaches the deepest node before it moves to the next path. DFS uses the Stack data structured to store the path and it needs less memory and time to reach the target node from the starting node. The main disadvantage of using DFS is that it might search deeper and deeper in an infinite loop.
 ## Depth Limited Search (DLS.py)
 DLS algorithm presents a new version of DFS algorithm as it uses the same implementation steps but with given predetermined depth which used to consider that there is no possible solution further. This given limit solves the infinite loop drawback of the DFS algorithm. 
-## Bridth First Search (BLS.py)
+## Bridth First Search (BFS.py)
 This is the most common used uninformed search algorithm for traversing a tree or a graph. Instead of the recursive traversing, it traverses through the graph breadthwise, level after level until it reaches the target node. The used data structure is First In First Out (FIFO).
 
 ## License
