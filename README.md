@@ -3,7 +3,7 @@ For PC with 4-cores processor we harness each core to find the optimal path in a
 The used uninformed search algorithms are:
 ## Depth First Search (DFS.py)
 It is a recursive algorithm because it traverses all the nodes in a possible path utill it reaches the deepest node before it moves to the next path. DFS uses the Stack data structured to store the path and it needs less memory and time to reach the target node from the starting node. The main disadvantage of using DFS is that it might search deeper and deeper in an infinite loop. Figure below shows the order in which nodes are expanded when we use DFS algorithm.
-< img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/1024px-Depth-first-tree.svg.png" width="200" height="200" />
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Depth-first-tree.svg/1024px-Depth-first-tree.svg.png =250x250)
 ## Depth Limited Search (DLS.py)
 DLS algorithm presents a new version of DFS algorithm as it uses the same implementation steps but with given predetermined depth which used to consider that there is no possible solution further. This given limit solves the infinite loop drawback of the DFS algorithm. 
 ## Bridth First Search (BFS.py)
