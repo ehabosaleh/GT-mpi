@@ -8,7 +8,7 @@ It is a recursive algorithm because it traverses all the nodes in a possible pat
 DLS algorithm presents a new version of DFS algorithm as it uses the same implementation steps but with given predetermined depth which used to consider that there is no possible solution further. This given limit solves the infinite loop drawback of the DFS algorithm. 
 ## Bridth First Search (BFS.py)
 This is the most common used uninformed search algorithm for traversing a tree or a graph. Instead of the recursive traversing, it traverses through the graph breadthwise, level after level until it reaches the target node. The used data structure is First In First Out (FIFO).
-Figure below shows the order in which nodes are expanded when we use BFS algorithm. 
+Figure below shows the order nodes are expanded when we use BFS algorithm. 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Breadth-first-tree.svg/1024px-Breadth-first-tree.svg.png)
 
 ## License
